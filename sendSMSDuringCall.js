@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express')
 const bodyParser = require('body-parser')
 const app = express()
@@ -6,8 +7,8 @@ const persephonySDK = require('@persephony/sdk')
 
 const port = process.env.PORT || 3000
 const host = process.env.HOST
-const accountId = process.env.accountId
-const authToken = process.env.authToken
+const accountId = process.env.ACCOUNT_ID
+const authToken = process.env.AUTH_TOKEN
 const persephony = persephonySDK(accountId, authToken)
 
 app.post('/incomingCall', (req, res) => {
