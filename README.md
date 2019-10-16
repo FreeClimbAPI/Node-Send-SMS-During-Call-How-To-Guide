@@ -1,13 +1,13 @@
 # Node - Send SMS During Call Tutorial
 
-This project serves as a guide to help you build an application with Persephony. Specifically, the project will:
+This project serves as a guide to help you build an application with FreeClimb. Specifically, the project will:
 
 - Accepts incoming calls
 - Sends text messages to callers   
 
-## Setting up your new app within your Persephony account
+## Setting up your new app within your FreeClimb account
 
-To get started using a persephony account, follow the instructions [here](https://persephony-docs.readme.io/docs/getting-started-with-persephony).
+To get started using a FreeClimb account, follow the instructions [here](https://persephony-docs.readme.io/docs/getting-started-with-persephony).
 
 ## Setting up the Tutorial
 
