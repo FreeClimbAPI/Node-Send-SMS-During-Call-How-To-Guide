@@ -3,21 +3,21 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const app = express()
 app.use(bodyParser.json())
-const persephonySDK = require('@persephony/sdk')
+const freeclimbSDK = require('@freeclimb/sdk')
 
 const port = process.env.PORT || 3000
 const host = process.env.HOST
 const accountId = process.env.ACCOUNT_ID
 const authToken = process.env.AUTH_TOKEN
-const persephony = persephonySDK(accountId, authToken)
+const freeclimb = freeclimbSDK(accountId, authToken)
 
 app.post('/incomingCall', (req, res) => {
   const options = {
     notificationUrl: `${host}/notificationUrl`
   }
   // Create sms PerCL that sends sms to current caller using the number handling the request
-  const smsCommand = persephony.percl.sms(req.body.to, req.body.from, 'Incoming Phone Call', options)
-  const percl = persephony.percl.build(smsCommand)
+  const smsCommand = freeclimb.percl.sms(req.body.to, req.body.from, 'Incoming Phone Call', options)
+  const percl = freeclimb.percl.build(smsCommand)
   res.status(200).json(percl)
 })
 
