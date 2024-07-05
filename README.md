@@ -1,4 +1,4 @@
-# Node - Send SMS During Call Tutorial
+# Node - Send SMS During Call How-To Guide
 
 This project serves as a guide to help you build an application with FreeClimb. View this tutorial on [FreeClimb.com](https://docs.freeclimb.com/docs/send-a-message#section-nodejs). Specifically, the project will:
 
