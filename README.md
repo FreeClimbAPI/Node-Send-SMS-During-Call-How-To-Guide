@@ -17,7 +17,7 @@ To get started using a FreeClimb account, follow the instructions [here](https:/
    $ yarn install
    ```
 
-2. Configure environment variables (this tutorial uses the [dotenv package](https://www.npmjs.com/package/dotenv)).
+2. Configure environment variables (this how-to guide uses the [dotenv package](https://www.npmjs.com/package/dotenv)).
 
    | ENV VARIABLE            | DESCRIPTION                                                                                                                                                                             |
    | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
