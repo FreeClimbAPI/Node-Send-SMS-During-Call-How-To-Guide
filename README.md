@@ -3,7 +3,7 @@
 This project serves as a guide to help you build an application with FreeClimb. View this how-to guide on [FreeClimb.com](https://docs.freeclimb.com/docs/send-a-message#section-nodejs). Specifically, the project will:
 
 - Accepts incoming calls
-- Sends text messages to callers   
+- Sends text messages to callers
 
 ## Setting up your new app within your FreeClimb account
 
@@ -19,11 +19,9 @@ To get started using a FreeClimb account, follow the instructions [here](https:/
 
 2. Configure environment variables (this how-to guide uses the [dotenv package](https://www.npmjs.com/package/dotenv)).
 
-   | ENV VARIABLE            | DESCRIPTION                                                                                                                                                                             |
-   | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-   | ACCOUNT_ID              | Account ID which can be found under [API credentials](https://www.freeclimb.com/dashboard/portal/account/authentication) in Dashboard                                                         |
-   | API_KEY              | API key which can be found under [API credentials](https://www.freeclimb.com/dashboard/portal/account/authentication) in Dashboard                                               |
-   | HOST | The url of where your app is being hosted (e.g. yourHostedApp.com) |
+   | ENV VARIABLE | DESCRIPTION                                                        |
+   | ------------ | ------------------------------------------------------------------ |
+   | HOST         | The url of where your app is being hosted (e.g. yourHostedApp.com) |
 
 ## Runnning the how-to guide
 
